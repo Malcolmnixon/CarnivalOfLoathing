@@ -37,18 +37,18 @@ public class Carousel : MonoBehaviour
         {
             // Handle ramp-up
             var speed = Mathf.Lerp(0, rotateSpeed, _runTime / rampDuration);
-            core.Rotate(Vector3.up, speed);
+            core.Rotate(Vector3.up, speed * Time.deltaTime);
         }
         else if (_runTime < duration - rampDuration)
         {
             // Handle running
-            core.Rotate(Vector3.up, rotateSpeed);
+            core.Rotate(Vector3.up, rotateSpeed * Time.deltaTime);
         }
         else if (_runTime < duration)
         {
             // Handle ramp-down
             var speed = Mathf.Lerp(rotateSpeed, 0, (_runTime - (duration - rampDuration)) / rampDuration);
-            core.Rotate(Vector3.up, speed);
+            core.Rotate(Vector3.up, speed * Time.deltaTime);
         }
         else
         {

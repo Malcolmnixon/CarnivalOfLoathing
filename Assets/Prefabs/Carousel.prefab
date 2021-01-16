@@ -438,7 +438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c550298451744f47bb509718ab4a6d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  core: {fileID: 0}
+  core: {fileID: 3662886514988624310}
   duration: 100
   rampDuration: 10
   rotateSpeed: 30
