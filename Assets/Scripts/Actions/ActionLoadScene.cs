@@ -12,11 +12,19 @@ public class ActionLoadScene : MonoBehaviour
 
     public void DoLoadScene()
     {
-        // Begin the fade-out
-        OVRScreenFade.instance.FadeOut();
+        if (useFade)
+        {
+            // Begin the fade-out
+            OVRScreenFade.instance.FadeOut();
 
-        // Start loading scene after fade time
-        StartCoroutine(LoadAfterTime(OVRScreenFade.instance.fadeTime));
+            // Start loading scene after fade time
+            StartCoroutine(LoadAfterTime(OVRScreenFade.instance.fadeTime));
+        }
+        else
+        {
+            // Do instant transition
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     private IEnumerator LoadAfterTime(float time)
