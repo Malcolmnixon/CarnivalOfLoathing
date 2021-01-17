@@ -43,6 +43,9 @@ public class SnapZone : MonoBehaviour
         if (other.name.Contains(filter))
         {
             var otherGrab = other.GetComponent<OVRGrabbable>();
+            if (otherGrab == null)
+                otherGrab = other.GetComponent<Snappable>()?.rootGrabbable;
+
             if (otherGrab != null)
             {
                 _potential.Add(otherGrab);
@@ -55,6 +58,9 @@ public class SnapZone : MonoBehaviour
         if (other.name.Contains(filter))
         {
             var otherGrab = other.GetComponent<OVRGrabbable>();
+            if (otherGrab == null)
+                otherGrab = other.GetComponent<Snappable>()?.rootGrabbable;
+
             if (otherGrab != null)
             {
                 _potential.Remove(otherGrab);
