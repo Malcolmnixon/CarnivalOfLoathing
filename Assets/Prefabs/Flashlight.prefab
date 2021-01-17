@@ -163,7 +163,7 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints:
-  - {fileID: 0}
+  - {fileID: 9037132764334645280}
   onGrabBegin:
     m_PersistentCalls:
       m_Calls: []
@@ -328,6 +328,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3855335175272487014, guid: ffee500bb070b7a47a7d69e7c18fd4a0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 39bd7bce76a7ace4a84ef572cd0fea1b, type: 2}
     - target: {fileID: 919132149155446097, guid: ffee500bb070b7a47a7d69e7c18fd4a0, type: 3}
       propertyPath: m_Name
       value: Flashlight
