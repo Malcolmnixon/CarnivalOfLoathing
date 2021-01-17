@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20c8503255e4342418415710fe99e692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: DeathScene
+  sceneName: VictoryScene
   useFade: 1
 --- !u!82 &37237409
 AudioSource:
