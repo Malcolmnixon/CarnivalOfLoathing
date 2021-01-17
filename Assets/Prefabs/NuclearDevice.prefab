@@ -202,7 +202,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   template: {fileID: 573829999572179639}
-  filter: DetonatorCore
+  filter: Core
 --- !u!1 &6914203902981651111
 GameObject:
   m_ObjectHideFlags: 0
