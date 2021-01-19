@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: f93ba923df748e845a476f6054f279dd
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bodymat
+    second: {fileID: 2100000, guid: d956e4fc15bc5de44a4dce3d5b0f9cf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottommat
+    second: {fileID: 2100000, guid: a4ce3d0fd48c866439eab011d9c67a06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hairmat
+    second: {fileID: 2100000, guid: 8976d861bd0810d47864c3156359787b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hatmat
+    second: {fileID: 2100000, guid: 432d6bd11f84b3e4f8227903ca9a92c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoesmat
+    second: {fileID: 2100000, guid: 0540d93c6d494df46820e69d21a46adc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Topmat
+    second: {fileID: 2100000, guid: 23938f9e723f2a643806caddd486c72e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Body_Diffuse
+    second: {fileID: 2800000, guid: 9fe269097a74f51498797c0a202cb574, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Body_Gloss
+    second: {fileID: 2800000, guid: ba2f85f5ea8f51548a133d80beeb3d08, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Body_Normal
+    second: {fileID: 2800000, guid: 5cc9f05f14d600d4a9de997e90b2bdee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Body_Opacity
+    second: {fileID: 2800000, guid: 72a74d6a963803244b0e999d868466aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Body_Specular
+    second: {fileID: 2800000, guid: 225c05296a0474c47b73be4183e4cf0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Bottom_Diffuse
+    second: {fileID: 2800000, guid: 67146a2bc461b2949802e9cec4bd6ec6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Bottom_Gloss
+    second: {fileID: 2800000, guid: 4c2527688b848a24d88890b2d7b200a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Bottom_Normal
+    second: {fileID: 2800000, guid: cc178328075fd0745ab85c47e67943af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Bottom_Opacity
+    second: {fileID: 2800000, guid: 5b10ad69cfdd8614d9a0f3065d0781b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Bottom_Specular
+    second: {fileID: 2800000, guid: a70f29fd041838a42910b8cf832b4b13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Hair_Diffuse
+    second: {fileID: 2800000, guid: 46451152574643044a15cfbc0d7b1b55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Hair_Gloss
+    second: {fileID: 2800000, guid: 64865b84f3939044db1f69eb4b6e2d03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Hair_Normal
+    second: {fileID: 2800000, guid: dd10fe7bbbec9e241985e2e2ec0a2875, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Hair_Opacity
+    second: {fileID: 2800000, guid: b108c2baf5abeb34fa073ce8fa48e4ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Hair_Specular
+    second: {fileID: 2800000, guid: 50b7ed9b824ae564faa2e50b4d224ed3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Hat_Diffuse
+    second: {fileID: 2800000, guid: 801a0d0481310f74587f03a388e708cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Hat_Gloss
+    second: {fileID: 2800000, guid: 3c0f24811933d4b4fa5d2be1d2cb0d2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Hat_Normal
+    second: {fileID: 2800000, guid: 286fa57c2ff4b564b8ca950ac0f3953e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Hat_Opacity
+    second: {fileID: 2800000, guid: 9459e5fbf9e8eab4b9a70911da7e5ca1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Hat_Specular
+    second: {fileID: 2800000, guid: 9b2df8ea67623064198c5268fc46950b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Shoes_Diffuse
+    second: {fileID: 2800000, guid: 335291627f67e944480823be26320772, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Shoes_Gloss
+    second: {fileID: 2800000, guid: 3fabe8e515696e84dae0089ed04e167e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Shoes_Normal
+    second: {fileID: 2800000, guid: b2ddd65e53cf4de45b130572ecd55dae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Shoes_Opacity
+    second: {fileID: 2800000, guid: db1141bfcd066ea4cbc8598f94f5e6f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Shoes_Specular
+    second: {fileID: 2800000, guid: 846a5148238ccd640900623d6fcc730f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Top_Diffuse
+    second: {fileID: 2800000, guid: db687d793dd59dc4dbd3f5abf2f241c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Top_Gloss
+    second: {fileID: 2800000, guid: 8ec213118f3c19e4b9ef3b44cfd89aa5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Top_Normal
+    second: {fileID: 2800000, guid: d72b2b03bc4e578438e57a855bbce5a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Top_Opacity
+    second: {fileID: 2800000, guid: 03036368f2959a34c8bf0b336508a81b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Malcom_Top_Specular
+    second: {fileID: 2800000, guid: 8dc045cacf4ff9248bacc63a8c389bcb, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
